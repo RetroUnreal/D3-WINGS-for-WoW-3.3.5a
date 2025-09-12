@@ -22,7 +22,7 @@ Item\ObjectComponents\Wings\D3TwoToneWing_Green.mdx
 Item\ObjectComponents\Wings\D3TwoToneWing_Purple.mdx
 ﻿(Beware that I've only really tested "D3AngelWing_Red" and "D3DemonWing_Cyan", If those work for you but any others don't, let me know.)
 
-4. Save the .dbc file, close the MyDbcEditor window and then delete "SpellVisualEffectName.dbc" from "Patch-X.MPQ" using Ladik's MPQ Editor, and then drag in our "SpellVisualEffectName.dbc" file we just edited in the Work folder.
+4. Save the .dbc file, close the MyDbcEditor window and then delete "SpellVisualEffectName.dbc" from "Patch-X.MPQ" using Ladik's MPQ Editor, and then drag in our "SpellVisualEffectName.dbc" file we just edited from the Work folder into "Patch-X.MPQ".
 ﻿Make sure you close Ladik's MPQ Editor before launching the game and test it out. (If you don't close the Patch inside of Ladik's MPQ Editor the game will not be able to read it and the Patch wont work.)
 
 5. Launch up the game, cast your Frost/ice/Mage Armor buff and enjoy your new wings!
