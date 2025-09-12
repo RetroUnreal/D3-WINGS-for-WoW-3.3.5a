@@ -11,7 +11,8 @@ A DBC Editor, I use "MyDbcEditor v1.2.2" by smartwork.
 ﻿
 2. If you are going to be using your own buff to try and attach it to I suggest you start fresh with the "Spell.dbc" file, so that Mages don't show the wings for you. Unless you want that ^^.
 So delete the "Spell.dbc" file you just extracted from "Patch-X.MPQ\DBFilesClient".
-And replace it with the clean one provided in the Google Drive link that includes the custom Project-Epoch spells.
+And replace it with the clean one that I've provided in the Release. It includes the custom Project-Epoch spells.
+https://github.com/RetroUnreal/D3-WINGS-for-WoW-3.3.5a/releases
 ﻿
 3. Open that "Spell.dbc" we just extracted with MyDbcEditor.
 Now you will need to look for your buff spell, beware that if there are multiple ranks for that spell, there will be multiple entries here.
