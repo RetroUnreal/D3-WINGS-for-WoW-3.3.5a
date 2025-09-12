@@ -12,8 +12,9 @@ One side effect is that it also changes Paladin's Avenging Wrath wings spell eff
 And your character will have the Paladin wings casting spell effect instead when casting the buff. I tried to do it via a custom spell in the DBC files but had to end up just using Avenging Wrath as a "Donor Spell" since it already places the wings pretty nicely.
 
 # Installation:
- 
-Place these patches inside your WoW Installation's Data folder (eg. C:\Program Files\Ascension Launcher\resources\epoch_live\Data)\
+
+Download the latest Release and extract it: https://github.com/RetroUnreal/D3-WINGS-for-WoW-3.3.5a/releases\
+Place the patches inside your WoW Installation's Data folder (eg. C:\Program Files\Ascension Launcher\resources\epoch_live\Data)\
 If you already have custom patches named "Patch-V.MPQ" OR "Patch-X.MPQ" installed then you will have to rename the patches you already have, or rename mine.\
 But you must make sure they are in the same order, Patch-V.MPQ needs to be loaded before Patch-X.MPQ. (The patches load in alphabetical order.)
 
