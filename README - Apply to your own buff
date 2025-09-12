@@ -1,0 +1,30 @@
+Before you start this you should probably think about if your class has a long buff you can cast on yourself that has a spell visual when you cast it. If not then don't waste your time.
+A short buff or ability etc that has a spell visual would also work. But remember that it will only last for the duration of the buff/ability.
+Maybe you can increase the time of a spell's visual effect in the DBC files somehow, but I have no clue how if its even possible.
+﻿
+Anyways if you want this applied to a buff of your own class it will require a little bit of tinkering, You will need two programs:
+An MPQ Editor, I use "Ladik's MPQ Editor".
+A DBC Editor, I use "MyDbcEditor v1.2.2" by smartwork.
+﻿
+
+1. Open up "Patch-X.MPQ" (The Patch-X.MPQ you got from me, or whatever you renamed it to.) and extract it to the Work folder using Ladik's MPQ Editor
+﻿
+2. If you are going to be using your own buff to try and attach it to I suggest you start fresh with the "Spell.dbc" file, so that Mages don't show the wings for you. Unless you want that ^^.
+So delete the "Spell.dbc" file you just extracted from "Patch-X.MPQ\DBFilesClient".
+And replace it with the clean one provided in the Google Drive link that includes the custom Project-Epoch spells.
+﻿
+3. Open that "Spell.dbc" we just extracted with MyDbcEditor.
+Now you will need to look for your buff spell, beware that if there are multiple ranks for that spell, there will be multiple entries here.
+We can identify them with Spell ID's, you can easily find them with Wowhead. Look up the spell and rank and it will be in the link:
+"https://www.wowhead.com/classic/spell=7301/frost-armor" this is Frost Armor Rank 3 for example. We would want the number behind "spell=" so 7301 in this case...
+Beware that there are some NPC spells with the same names/ranks. To be sure you have your classes spell I would recommend you to do this instead of just searching for the spell rank:
+Open Wowhead, Go to the "DATABASE" tab -> "Classes" and then pick your class and sort it by level, then pick the Spell + Rank of the Buff you want to apply it to.
+
+4. Now back inside "Spell.dbc" with MyDbcEditor go to Edit -> Go to ID... and look up that Spell ID. And then scroll all the way to the right till you see column "SpellVisual1 [132]"
+Replace the number in that to "7880", This is the Spell Visual of Avenging Wrath (Paladin Wings) Since we replaced the spell visual of that with our D3 Wings. They should now show up when we cast that buff.
+If that column does not have a number I'm not sure if this will work, and if it doesn't you will need to look for a buff that does have a "SpellVisual1".
+
+5. Save "Spell.dbc" and close MyDbcEditor, Then open up "Patch-X.MPQ" again with Ladik's MPQ Editor and delete "Spell.dbc" inside the "DBFilesClient" folder, And then Drag and drop our edited "Spell.dbc" in
+Make sure you close Ladik's MPQ Editor before launching the game and test it out. (If you don't close the Patch inside of Ladik's MPQ Editor the game will not be able to read it and the Patch wont work.)
+
+6. Launch WoW and hopefully enjoy your new wings!
