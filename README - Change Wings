@@ -1,0 +1,28 @@
+If you want to change the D3 Wings to different ones (currently the patch has the "D3DemonWing_Cyan" on)\
+Then you will need two programs to change to a different one:\
+An MPQ Editor, I use "Ladik's MPQ Editor".\
+A DBC Editor, I use "MyDbcEditor v1.2.2" by smartwork.
+
+1. Open up my "Patch-X.MPQ" and inside folder "DBFilesClient" extract "SpellVisualEffectName.dbc" using Ladik's MPQ Editor.
+﻿
+2. Open up "SpellVisualEffectName.dbc" using MyDbcEditor, go to Edit -> Go to ID... and look for "3146"\
+(This is the ID for the Avenging Wrath wings spell visual, since our buffs use the spell visual from Paladin's Avenging Wrath, this is what we need to change to affect the spell visual on our buffs.)
+﻿
+3. In the "Voiceover [3]" column of ID "3146" (AW Wings) Change the file path to any of these wings:\
+Item\ObjectComponents\Wings\D3AngelWing_Orange.mdx\
+Item\ObjectComponents\Wings\D3AngelWing_Red.mdx\
+Item\ObjectComponents\Wings\D3AngelWing_White.mdx\
+Item\ObjectComponents\Wings\D3DemonWing_Blue.mdx\
+Item\ObjectComponents\Wings\D3DemonWing_Cyan.mdx (Default one in my Patches.)\
+Item\ObjectComponents\Wings\D3DemonWing_Red.mdx\
+Item\ObjectComponents\Wings\D3DemonWing_Yellow.mdx\
+Item\ObjectComponents\Wings\D3TwoToneWing_Blue.mdx\
+Item\ObjectComponents\Wings\D3TwoToneWing_Gold.mdx\
+Item\ObjectComponents\Wings\D3TwoToneWing_Green.mdx\
+Item\ObjectComponents\Wings\D3TwoToneWing_Purple.mdx\
+﻿(Beware that I've only really tested "D3AngelWing_Red" and "D3DemonWing_Cyan", If those work for you but any others don't, let me know.)
+
+4. Save the .dbc file, close the MyDbcEditor window and then delete "SpellVisualEffectName.dbc" from "Patch-X.MPQ" using Ladik's MPQ Editor, and then drag in our "SpellVisualEffectName.dbc" file we just edited in the Work folder.\
+﻿Make sure you close Ladik's MPQ Editor before launching the game and test it out. (If you don't close the Patch inside of Ladik's MPQ Editor the game will not be able to read it and the Patch wont work.)
+
+5. Launch up the game, cast your Frost/ice/Mage Armor buff and enjoy your new wings!
