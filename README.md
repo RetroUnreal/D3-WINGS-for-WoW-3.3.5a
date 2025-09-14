@@ -1,6 +1,6 @@
 # Diablo 3 Wings inside WoW 3.3.5a (Currently only on Mage Armor Buffs):
 I've made some patches for people in the Project-Epoch Discord (Paladin: Devotion Aura or Righteous Fury, Warrior: Battle Shout (All Ranks)\
-https://discord.com/invite/projectepoch
+https://discord.com/invite/projectepoch \
 https://discord.com/channels/729423227373355040/1413911881617510570/1413911881617510570
 
 Hey I finally figured out how to swap my Mage Armor Buffs (Frost, Ice, Molten and Mage Armor) to display Diablo 3 wings instead. So it will display the Diablo 3 wings during the duration of those buffs.
